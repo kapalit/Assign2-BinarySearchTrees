@@ -23,6 +23,6 @@ int main() {
     printf("Number of nodes: %d\n", countNodes(root)); 
     printf("Tree height: %d\n", treeHeight(root)); 
 
-    freeTree(root); // Free the memory allocated for the tree
+    freeTree(root); // Free the memory allocated 
     return 0;
 }
