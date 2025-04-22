@@ -48,7 +48,7 @@ int treeHeight(Node* root) {
     return 1 + (leftHeight > rightHeight ? leftHeight : rightHeight); // Returns the greater height
 }
 
-// Function to free the memory allocated for the tree
+// Function to free the memory allocated 
 void freeTree(Node* root) {
     if (root != NULL) {
         freeTree(root->left);                // Frees left subtree
