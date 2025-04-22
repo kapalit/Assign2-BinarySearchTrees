@@ -10,7 +10,7 @@ typedef struct node {
     struct node* right;  
 } Node;
 
-// Function prototypes for operations on the BST
+// Function prototypes for operations on the bst
 Node* insert(Node* root, char data);
 Node* newNode(char data);           
 void inorderTraversal(Node* root);  
